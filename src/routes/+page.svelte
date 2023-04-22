@@ -1,10 +1,21 @@
 <!-- Page Container -->
+<script>
+	 import anime from 'animejs';
+	import Cards from '$lib/Cards.svelte';
+	import { onMount } from 'svelte';
+	onMount(() => {
+	
+	});
+
+</script>
 <svelte:head>
+	<script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"></script>
+
 	<script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
 </svelte:head>
 <!-- Page Content -->
-<main id="page-content" class="flex flex-auto flex-col max-w-full">
+<main id="page-content" class="flex flex-auto flex-col max-w-full" >
 	<!-- Hero -->
 	<!-- Hero Section: Simple With Logo Dark -->
 
@@ -36,7 +47,7 @@
 					/></svg
 				>
 			</a>
-			<h1 class="text-3xl md:text-4xl font-extrabold mb-4 text-white">
+			<h1 class="text-3xl md:text-4xl font-extrabold mb-4 text-white" >
 				Professionell Bilvård i Karlstad
 			</h1>
 			<h2 class="text-lg md:text-xl md:leading-relaxed font-medium text-gray-400 lg:w-2/3 mx-auto">
@@ -150,7 +161,7 @@
 						</svg>
 						<h4 class="text-lg font-bold text-white mb-2">Rekond - Fräscha upp din bil</h4>
 						<p class="leading-relaxed text-white text-opacity-75">
-							Vår rekondtjänst ger din bil en grundlig rengöring, både invändigt och utvändigt. Vi
+							Vår rekondtjänst ger din bil en detaljerad rengöring, både invändigt och utvändigt. Vi
 							tvättar, torkar och polerar bilen till perfektion, rengör fönster och dörrar samt
 							dammsuger och rengör alla ytor invändigt. Du kommer att känna dig som om du precis
 							köpt en ny bil!
@@ -191,12 +202,8 @@
 
 	<!-- Section -->
 	<div class="bg-white dark:text-gray-100 dark:bg-gray-900">
-		<div class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
-			<div
-				class="flex items-center justify-center rounded-xl bg-gray-50 border-2 border-dashed border-gray-200 text-gray-400 py-32 dark:bg-gray-800 dark:border-gray-700"
-			>
-				Section Content
-			</div>
+		<div class="container xl:max-w-7xl mx-auto px-4 py-8 lg:px-8 lg:py-8">
+			<Cards />
 		</div>
 	</div>
 	<!-- END Section -->
@@ -253,4 +260,5 @@
 
 <!-- END Page Content -->
 <style>
+	
 </style>
