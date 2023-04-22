@@ -26,19 +26,19 @@
           <div class="md:w-2/5 md:mt-24 space-y-6">
             <div class="group bg-gray-800 transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-orange-300">
               
-             <img src="/images/hero.jpg" class="rounded-2xl h-96 w-full"  alt="" srcset="">
+             <img src="/images/hero.webp" loading="lazy" class="rounded-2xl h-96 w-full"  alt="" srcset="">
             </div>
             <div class="group bg-gray-800 transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-red-300">
-              <img src="/images/bmw4.jpg" class="rounded-2xl h-96 w-full"  alt="" srcset="">
+              <img src="/images/bmw4.webp" loading="lazy" class="rounded-2xl h-96 w-full"  alt="" srcset="">
             </div>
           </div>
           <div class="md:w-2/5 space-y-6">
             <div class="group bg-gray-800  transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-emerald-300">
-              <img src="/images/bmw2.jpg" class="rounded-2xl h-96 w-full"  alt="" srcset="">
+              <img src="/images/bmw2.webp" loading="lazy" class="rounded-2xl h-96 w-full"  alt="" srcset="">
              
             </div>
             <div class="group bg-gray-800  transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-purple-300">
-              <img src="/images/bmw3.jpg" class="rounded-2xl h-96 w-full"  alt="" srcset="">
+              <img src="/images/bmw3.webp"  loading="lazy" class="rounded-2xl h-96 w-full"  alt="" srcset="">
             </div>
           </div>
         </div>

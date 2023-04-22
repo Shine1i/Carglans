@@ -11,6 +11,7 @@
 
 </script>
 <svelte:head>
+	<title>Carglans i Karlstad AB</title>
 	<script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"></script>
 
 	<script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
