@@ -18,7 +18,7 @@
       <a href="javascript:void(0)" class="font-medium text-gray-300 hover:text-gray-400">
         Om Oss
       </a>
-      <a href="javascript:void(0)" class="font-medium text-gray-300 hover:text-gray-400">
+      <a href="/bilder" class="font-medium text-gray-300 hover:text-gray-400">
         Galleri
       </a>
       <a href="javascript:void(0)" class="font-medium text-gray-300 hover:text-gray-400">

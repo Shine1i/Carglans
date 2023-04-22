@@ -12,7 +12,7 @@
         <a href="javascript:void(0)" class="text-sm font-semibold text-gray-100 hover:text-pink-600 dark:text-gray-100 dark:hover:text-pink-500">
           <span>Om Oss</span>
         </a>
-        <a href="javascript:void(0)" class="text-sm font-semibold text-gray-100 hover:text-pink-600 dark:text-gray-100 dark:hover:text-pink-500">
+        <a href="/bilder" class="text-sm font-semibold text-gray-100 hover:text-pink-600 dark:text-gray-100 dark:hover:text-pink-500">
           <span>Galleri</span>
         </a>
         <a href="javascript:void(0)" class="text-sm font-semibold text-gray-100 hover:text-pink-600 dark:text-gray-100 dark:hover:text-pink-500">
