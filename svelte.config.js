@@ -10,6 +10,7 @@ const config = {
       static: true,
 			fallback: null,
 			precompress: true,
+			strict:false,
     }),
 	},
 	vitePlugin: {
