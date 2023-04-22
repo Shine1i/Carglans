@@ -9,6 +9,7 @@ const config = {
 		adapter: adapter({
       static: true,
 			fallback: null,
+			precompress: true,
     }),
 	},
 	vitePlugin: {
