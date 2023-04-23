@@ -63,8 +63,8 @@
 			<div class="absolute inset-0 rounded-xl bg-gray-600 bg-opacity-25 -m-4 transform -rotate-2" />
 
 			<img-comparison-slider>
-				<img width="1000" height="500" slot="first" src="/images/bmw-clean.webp" alt="bmw ren"/>
-				<img  width="1000" height="500" slot="second" src="/images/bmw.webp" class="" alt="bmw smutsig" />
+			<img   slot="first" src="/images/bmw.webp" class="" alt="bmw smutsig" />
+				<img  slot="second" src="/images/bmw.png" alt="bmw ren"/>
 			</img-comparison-slider>
 		</div>
 	</div>

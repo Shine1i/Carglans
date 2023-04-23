@@ -35,28 +35,24 @@
 						<div
 							class="group bg-gray-800 transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-orange-300"
 						>
-							<Image width={300}
-              height={400} src="/images/hero.webp" class="rounded-2xl w-96 h-96" alt="bmw bil" srcset="" />
+							<img  loading='eager' src="https://wsrv.nl/?url=i.ibb.co/Y2DmV8T/hero.webp&maxage=365d&w=500&h=500" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 						<div
 							class="group bg-gray-800 transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-red-300"
 						>
-							<Image width={300}
-              height={400} src="/images/bmw4.webp" class="rounded-2xl h-96 w-full" alt="bmw bil" srcset="" />
+							<img loading='eager' src="https://wsrv.nl/?url=i.ibb.co/gmTLnXv/bmw4.webp&maxage=365d&w=500&h=500" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 					</div>
 					<div class="md:w-2/5 space-y-6">
 						<div
 							class="group bg-gray-800  transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-emerald-300"
 						>
-							<Image width={300}
-              height={400} src="/images/bmw2.webp" class="rounded-2xl h-96 w-full" alt="bmw bil" srcset="" />
+							<img  loading='eager' src="https://wsrv.nl/?url=i.ibb.co/9bSzTnW/bmw2.webp&maxage=365d&w=500&h=500" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 						<div
 							class="group bg-gray-800  transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-purple-300"
 						>
-							<Image width={300}
-              height={400} src="/images/bmw3.webp" class="rounded-2xl h-96 w-full" alt="bmw bil" srcset="" />
+							<img loading='eager' src="https://wsrv.nl/?url=i.ibb.co/phvSdMT/bmw3.webp&maxage=365d&w=500&h=500" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 					</div>
 				</div>
