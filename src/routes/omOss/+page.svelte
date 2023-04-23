@@ -25,7 +25,7 @@
           <!-- END Heading -->
   
           <!-- Images -->
-          <div class="flex space-x-2">
+          <div class="flex space-x-2">  
             <div class="flex flex-col md:flex-row gap-5 ">
               <img src="https://wsrv.nl/?url=i.ibb.co/kxX7352/about.jpg&maxage=365d" alt="Featured Image" class="rounded-lg md:w-2/3 object-cover">
               <img src="https://wsrv.nl/?url=i.ibb.co/Y2DmV8T/hero.webp&maxage=365d" alt="Featured Image" class="rounded-lg md:w-1/3 object-cover">
@@ -52,7 +52,7 @@
                 <span>Engagemang</span>
               </h3>
               <p class="leading-relaxed text-gray-400">
-                Vi är engagerade i att ge dig en överlägsen bilvårdstjänst och sätter alltid kunden i första hand. Vi tar oss tid att förstå dina behov och önskemål för att säkerställa att vi uppnår de bästa möjliga resultaten.
+                Vi strävar efter att ge dig en bilvårdstjänst som överträffar dina förväntningar och sticker ut från andra. Vi lyssnar uppmärksamt på dina behov och önskemål för att säkerställa bästa möjliga resultat och kundservice.
               </p>
             </div>
             <div>

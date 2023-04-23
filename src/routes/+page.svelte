@@ -87,7 +87,7 @@ on:change={({ detail }) => {
 								y="52"
 							/></svg
 						>
-						<h4 class="text-lg font-bold text-white mb-2">1. Polering - Återställ bilens glans</h4>
+						<h4 class="text-lg font-bold text-white mb-2">Polering - Återställ bilens glans</h4>
 						<p class="leading-relaxed text-white text-opacity-75">
 							Vår poleringstjänst ger din bil en professionell finish genom att ta bort repor,
 							ojämnheter och smuts från ytan. Vi använder en högkvalitativ polermaskin och

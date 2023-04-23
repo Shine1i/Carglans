@@ -48,7 +48,7 @@ on:change={({ detail }) => {
   <div class="space-y-16 container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-8">
 <!-- Heading -->
 <div class="text-center">
-  <div class="mx-auto mb-2 inline-block rounded px-1.5 py-0.5 text-sm font-semibold bg-rose-100 text-rose-700">
+  <div class="mx-auto mb-2 inline-block rounded px-1.5 py-0.5 text-sm font-semibold bg-rose-400/10 text-rose-400">
     Nöjda Kunder
   </div>
   <h2 class="mb-3 text-3xl font-black text-white md:text-4xl lg:mx-auto lg:w-2/3 lg:leading-tight">
