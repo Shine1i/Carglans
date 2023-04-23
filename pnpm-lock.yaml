@@ -4,6 +4,9 @@ dependencies:
   animejs:
     specifier: ^3.2.1
     version: 3.2.1
+  svelte-inview:
+    specifier: ^4.0.0
+    version: 4.0.0(svelte@3.54.0)
   sveltekit-image:
     specifier: ^0.5.13
     version: 0.5.13
@@ -2276,6 +2279,14 @@ packages:
       svelte: 3.58.0
     dev: false
 
+  /svelte-inview@4.0.0(svelte@3.54.0):
+    resolution: {integrity: sha512-2lvfkJRkmHt19RvDe5MrIK/pFiPJhyXbKL6JrEyRNC73EYTmFSMBc7481UIw01s5+/+uRQXRPvrtC0zA45HLaA==}
+    peerDependencies:
+      svelte: ^3.0.0
+    dependencies:
+      svelte: 3.54.0
+    dev: false
+
   /svelte-preprocess@5.0.3(postcss@8.4.23)(svelte@3.58.0)(typescript@4.9.5):
     resolution: {integrity: sha512-GrHF1rusdJVbOZOwgPWtpqmaexkydznKzy5qIC2FabgpFyKN57bjMUUUqPRfbBXK5igiEWn1uO/DXsa2vJ5VHA==}
     engines: {node: '>= 14.10.0'}
@@ -2387,7 +2398,6 @@ packages:
   /svelte@3.54.0:
     resolution: {integrity: sha512-tdrgeJU0hob0ZWAMoKXkhcxXA7dpTg6lZGxUeko5YqvPdJBiyRspGsCwV27kIrbrqPP2WUoSV9ca0gnLlw8YzQ==}
     engines: {node: '>= 8'}
-    dev: true
 
   /svelte@3.58.0:
     resolution: {integrity: sha512-brIBNNB76mXFmU/Kerm4wFnkskBbluBDCjx/8TcpYRb298Yh2dztS2kQ6bhtjMcvUhd5ynClfwpz5h2gnzdQ1A==}

@@ -1,4 +1,17 @@
-<div class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-6
+<script>
+  import { fade } from 'svelte/transition';
+  import { inview } from 'svelte-inview';
+  let isInView;
+</script>
+<div
+class="wrapper"
+use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
+on:change={({ detail }) => {
+	isInView = detail.inView;
+}}
+>
+{#if isInView}
+<div in:fade class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-6
 		">
 		
 <div class=" overflow-hidden">
@@ -139,3 +152,5 @@
 <!-- END Testimonials Section: Boxed Multiple Alternate -->
 		<!-- CTA Section: Simple Box Dark With Shapes -->
 		</div>
+    {/if}
+    </div>  

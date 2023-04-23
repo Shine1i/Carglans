@@ -5,7 +5,10 @@
 	import Hero from '$lib/Hero.svelte';
 	import Cta from '$lib/Cta.svelte';
 	import { onMount } from 'svelte';
-	import Image from 'sveltekit-image';
+	import { fade } from 'svelte/transition';
+  import { inview } from 'svelte-inview';
+
+  let isInView;
 	onMount(() => {
 	
 	});
@@ -25,12 +28,22 @@
 
 	<Hero />
 	<!-- Section -->
-	<div class="bg-gray-100 dark:text-gray-100 dark:bg-gray-800 dark:bg-opacity-50">
+
+<div
+class="wrapper"
+use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
+on:change={({ detail }) => {
+	isInView = detail.inView;
+}}
+>
+{#if isInView}
+	<div in:fade out:fade class="bg-gray-100 dark:text-gray-100 dark:bg-gray-800 dark:bg-opacity-50">
 		<div class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-16">
 			<!-- Features Section: Boxes with Icons Dark -->
 			<div class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-16">
           <!-- Heading -->
-          <div class="text-center mb-10">
+					
+          <div  class="text-center mb-10">
             <div class="text-sm uppercase font-bold tracking-wider mb-1 text-blue-700">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="car-repair-location" class="hi-solid hi-terminal inline-block w-10 h-10 fill-rose-400"><g data-name="Outline"><circle cx="32" cy="57" r="1"></circle><path d="M42.633 45.377a23 23 0 1 0-21.266 0C8.512 46.344 2 49.073 2 53.5 2 60.525 18.314 62 32 62s30-1.475 30-8.5c0-4.427-6.512-7.156-19.367-8.123ZM11 25a21 21 0 1 1 29.72 19.1 1.021 1.021 0 0 0-.292.2l-7.77 7.79a.993.993 0 0 1-1.266.046l-7.82-7.836a1.021 1.021 0 0 0-.292-.2A21.062 21.062 0 0 1 11 25Zm21 35c-17.271 0-28-2.491-28-6.5 0-3.277 7.166-5.553 19.667-6.267l1.943 1.946C19.329 49.532 11 50.555 11 53.5c0 3.328 10.618 4.2 16.948 4.429h.036a1 1 0 0 0 .035-2C18.445 55.588 14 54.214 13.107 53.5c.879-.7 5.19-2.036 14.413-2.408l2.5 2.51a2.964 2.964 0 0 0 1.956.732 3.093 3.093 0 0 0 2.043-.779l2.458-2.463c9.223.372 13.537 1.708 14.416 2.408-.9.714-5.337 2.088-14.91 2.43a1 1 0 0 0 .035 2h.036C42.383 57.7 53 56.828 53 53.5c0-2.944-8.328-3.968-14.609-4.321l1.942-1.946C52.834 47.947 60 50.223 60 53.5c0 4.009-10.729 6.5-28 6.5Z"></path><path d="M51 25a19 19 0 1 0-19 19 19.021 19.021 0 0 0 19-19Zm-36 0a17 17 0 1 1 17 17 17.019 17.019 0 0 1-17-17Z"></path><path d="M36.521 26c1.4.106 4.81.14 6.7-1.748a7.5 7.5 0 0 0 1.852-7.56 1.006 1.006 0 0 0-1.661-.409l-2.641 2.641-2.357-.471-.474-2.353 2.641-2.641a1.007 1.007 0 0 0-.409-1.662 7.507 7.507 0 0 0-7.561 1.853c-1.887 1.888-1.853 5.291-1.747 6.7l-4.5 4.5a18.463 18.463 0 0 1-4.8 3.463 4.961 4.961 0 1 0 7 7A18.422 18.422 0 0 1 32.02 30.5Zm-9.674 8.255a3.071 3.071 0 0 1-4.135-.1 3.005 3.005 0 0 1-.1-4.135 20.414 20.414 0 0 0 5.167-3.758l4.835-4.835a1 1 0 0 0 .286-.827c-.227-1.9.029-4.438 1.128-5.538a5.5 5.5 0 0 1 3.732-1.61l-1.61 1.61a1 1 0 0 0-.273.9l.707 3.536a1 1 0 0 0 .784.784l3.535.707a1 1 0 0 0 .9-.273l1.61-1.61a5.5 5.5 0 0 1-1.61 3.731c-1.1 1.1-3.644 1.356-5.537 1.129a.992.992 0 0 0-.827.285l-4.835 4.835a20.437 20.437 0 0 0-3.757 5.17Z"></path><circle cx="24.833" cy="32.032" r="1"></circle></g></svg>
             </div>
@@ -42,6 +55,7 @@
             </h3>
           </div>
           <!-- END Heading -->
+					
 				<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
 					<div
 						class="p-5 bg-white bg-opacity-5 shadow-sm hover:bg-opacity-10 transition rounded-lg"
@@ -136,7 +150,8 @@
 		<!-- END Features Section: Boxes with Icons Dark -->
 	</div>
 	<!-- END Section -->
-
+	{/if}
+</div>
 	<!-- Section -->
 	<div class="bg-white dark:text-gray-100 dark:bg-gray-900">
 		<div class="container xl:max-w-7xl mx-auto px-4 py-8 lg:px-8 lg:py-8">

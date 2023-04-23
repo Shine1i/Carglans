@@ -1,8 +1,18 @@
 <!-- Features Section: Vertical Cards -->
 <script>
-  import Image from 'sveltekit-image';
+  import { fade } from 'svelte/transition';
+  import { inview } from 'svelte-inview';
+  let isInView;
 </script>
-<div class=" overflow-hidden">
+<div
+class="wrapper"
+use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
+on:change={({ detail }) => {
+	isInView = detail.inView;
+}}
+>
+{#if isInView}
+<div in:fade class=" overflow-hidden">
 	<div class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-10">
 		<div class="flex flex-col lg:flex-row lg:items-center space-y-12 lg:space-y-0 lg:space-x-20">
 			<!-- Heading -->
@@ -62,3 +72,5 @@
 	</div>
 </div>
 <!-- END Features Section: Vertical Cards -->
+{/if}
+</div>
