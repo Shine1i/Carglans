@@ -1,6 +1,8 @@
 <!-- Hero -->
 	<!-- Hero Section: Simple With Logo Dark -->
-
+<script>
+	import Image from 'sveltekit-image';
+</script>
 	<!-- Logo -->
 	<div class="absolute inset-x-0 bottom-0 text-gray-700 text-opacity-50">
 		<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150"
@@ -41,7 +43,7 @@
 			class="flex flex-col sm:flex-row sm:items-center sm:justify-center space-y-2 sm:space-y-0 sm:space-x-2 pt-10 pb-16"
 		>
 			<a
-				href="javascript:void(0)"
+				href="/kontakt"
 				class="inline-flex justify-center items-center space-x-2 border font-semibold focus:outline-none px-6 py-4 leading-6 rounded border-rose-700 bg-rose-700 text-white hover:text-white hover:bg-rose-800 hover:border-rose-800 focus:ring focus:ring-rose-500 focus:ring-opacity-50 active:bg-rose-700 active:border-rose-700"
 			>
 				<svg
@@ -61,8 +63,8 @@
 			<div class="absolute inset-0 rounded-xl bg-gray-600 bg-opacity-25 -m-4 transform -rotate-2" />
 
 			<img-comparison-slider>
-				<img slot="first" src="/images/bmw-clean.png" />
-				<img slot="second" src="/images/bmw.png" class="" />
+				<img width="1000" height="500" slot="first" src="/images/bmw-clean.webp" alt="bmw ren"/>
+				<img  width="1000" height="500" slot="second" src="/images/bmw.webp" class="" alt="bmw smutsig" />
 			</img-comparison-slider>
 		</div>
 	</div>

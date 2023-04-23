@@ -1,15 +1,10 @@
-<script context="module">
-	export const load = async ({ fetch, page, props }) => {
-		return {
-			props,
-			//  cache for 10 minutes
-			cache: { maxage: 60 }
-		};
-	};
+<script>
+	import Image from 'sveltekit-image';
 </script>
+
 <svelte:head>
-  <title>Galleri - Carglans</title>
-  <meta name="description" content="Våra senaste jobb" />
+	<title>Galleri - Carglans</title>
+	<meta name="description" content="Våra senaste jobb" />
 </svelte:head>
 <!-- Heading -->
 <div class="text-center">
@@ -24,88 +19,143 @@
 	</h3>
 </div>
 <!-- END Heading -->
-
-<div class="container lg:px-32 px-4 py-8 mx-auto items-center ">
-	<div class="grid grid-cols-4 grid-rows-4 grid-flow-col gap-2">
-		<div
-			class="w-full row-span-2 relative group rounded-lg overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2"
-		>
-			<img
-				loading="lazy"
-				src="/images/gal1.webp"
-				alt="Photo by Claudio Schwarz on Unsplash"
-				class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 transform transition duration-300 ease-out group-hover:scale-110 group-focus:scale-110 group-focus-within:scale-110"
-			/>
-		</div>
-		<div
-			class="w-full col-span-2 row-span-2  relative group rounded-lg overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 "
-		>
-			<img
-				loading="lazy"
-				src="/images/gal3.webp"
-				alt="Photo by Claudio Schwarz on Unsplash"
-				class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 transform transition duration-300 ease-out group-hover:scale-110 group-focus:scale-110 group-focus-within:scale-110"
-			/>
-		</div>
-		<div
-			class="w-full relative group rounded-lg overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 "
-		>
-			<img
-				src="/images/gal4.webp"
-				alt="Photo by Claudio Schwarz on Unsplash"
-				class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 transform transition duration-300 ease-out group-hover:scale-110 group-focus:scale-110 group-focus-within:scale-110 "
-			/>
-		</div>
-		<div
-			class="w-full relative group rounded-lg overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2"
-		>
-			<img
-				loading="lazy"
-				src="/images/gal5.webp"
-				alt="Photo by Claudio Schwarz on Unsplash"
-				class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 transform transition duration-300 ease-out group-hover:scale-110 group-focus:scale-110 group-focus-within:scale-110 "
-			/>
-		</div>
-		<div
-			class="w-full col-span-2 row-span-2 relative group rounded-lg overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2"
-		>
-			<img
-				loading="lazy"
-				src="/images/gal10.webp"
-				alt="Photo by Claudio Schwarz on Unsplash"
-				class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 transform transition duration-300 ease-out group-hover:scale-110 group-focus:scale-110 group-focus-within:scale-110"
-			/>
-		</div>
-
-		<div
-			class="w-full col-span-2 relative group rounded-lg overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2"
-		>
-			<img
-				loading="lazy"
-				src="/images/gal7.webp"
-				alt="Photo by Claudio Schwarz on Unsplash"
-				class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 transform transition duration-300 ease-out group-hover:scale-110 group-focus:scale-110 group-focus-within:scale-110 "
-			/>
-		</div>
-		<div
-			class="w-full relative group rounded-lg overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2"
-		>
-			<img
-				loading="lazy"
-				src="/images/gal8.webp"
-				alt="Photo by Claudio Schwarz on Unsplash"
-				class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 transform transition duration-300 ease-out group-hover:scale-110 group-focus:scale-110 group-focus-within:scale-110 "
-			/>
-		</div>
-		<div
-			class="w-full relative group rounded-lg overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2"
-		>
-			<img
-				loading="lazy"
-				src="/images/gal9.webp"
-				alt="Photo by Claudio Schwarz on Unsplash"
-				class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 transform transition duration-300 ease-out group-hover:scale-110 group-focus:scale-110 group-focus-within:scale-110 "
-			/>
+<!-- Product List Section: Categories Grid -->
+<div class="">
+	<div class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-8">
+		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+			<a
+				href="javascript:void(0)"
+				class="sm:col-span-2 md:col-span-1 block group relative transition ease-out active:opacity-75 overflow-hidden"
+			>
+				<Image
+				width={400}
+					height={600}
+					src="/images/gal1.webp"
+					alt="Product Image"
+					class="transform transition ease-out group-hover:scale-110"
+				/>
+				<div
+					class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"
+				/>
+				<div class="p-4 flex items-center justify-center absolute inset-0">
+					<div
+						class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600"
+					>
+						Electronics
+					</div>
+				</div>
+			</a>
+			<a
+				href="javascript:void(0)"
+				class="block group relative transition ease-out active:opacity-75 overflow-hidden"
+			>
+				<Image
+					width={400}
+					height={600}
+					src="/images/gal2.webp"
+					alt="Product Image"
+					class="transform transition ease-out group-hover:scale-110"
+				/>
+				<div
+					class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"
+				/>
+				<div class="p-4 flex items-center justify-center absolute inset-0">
+					<div
+						class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600"
+					>
+						Computers
+					</div>
+				</div>
+			</a>
+			<a
+				href="javascript:void(0)"
+				class="block group relative transition ease-out active:opacity-75 overflow-hidden"
+			>
+				<Image
+					width={100}
+					height={100}
+					src="/images/gal10.webp"
+					alt="Product Image"
+					class="transform transition ease-out group-hover:scale-110"
+				/>
+				<div
+					class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"
+				/>
+				<div class="p-4 flex items-center justify-center absolute inset-0">
+					<div
+						class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600"
+					>
+						Clothes
+					</div>
+				</div>
+			</a>
+			<a
+				href="javascript:void(0)"
+				class="sm:col-span-2 md:col-span-1 block group relative transition ease-out active:opacity-75 overflow-hidden"
+			>
+				<Image
+					width={400}
+					height={600}
+					src="/images/gal4.webp"
+					alt="Product Image"
+					class="transform transition ease-out group-hover:scale-110"
+				/>
+				<div
+					class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"
+				/>
+				<div class="p-4 flex items-center justify-center absolute inset-0">
+					<div
+						class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600"
+					>
+						Smart Home
+					</div>
+				</div>
+			</a>
+			<a
+				href="javascript:void(0)"
+				class="block group relative transition ease-out active:opacity-75 overflow-hidden"
+			>
+				<Image
+					width={400}
+					height={600}
+					src="/images/gal6.jpg"
+					alt="Product Image"
+					class="transform h-full w-full object-fill transition ease-out group-hover:scale-110"
+				/>
+				<div
+					class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"
+				/>
+				<div class="p-4 flex items-center justify-center absolute inset-0">
+					<div
+						class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600"
+					>
+						Shoes
+					</div>
+				</div>
+			</a>
+			<a
+				href="javascript:void(0)"
+				class="block group relative transition ease-out h-full active:opacity-75 overflow-hidden"
+			>
+				<Image
+					width={400}
+					height={600}
+					src="/images/gal5.jpg"
+					alt="Product Image"
+					class="transform transition ease-out object-fill group-hover:scale-110"
+				/>
+				<div
+					class="absolute inset-0 bg-black bg-opacity-25 transition ease-out group-hover:bg-opacity-0"
+				/>
+				<div class="p-4 flex items-center justify-center absolute inset-0">
+					<div
+						class="py-3 px-4 bg-white bg-opacity-95 rounded-3xl text-sm font-semibold uppercase tracking-wide transition ease-out group-hover:text-white group-hover:bg-rose-600"
+					>
+						Wearables
+					</div>
+				</div>
+			</a>
 		</div>
 	</div>
 </div>
+<!-- END Product List Section: Categories Grid -->

@@ -5,6 +5,7 @@
 	import Hero from '$lib/Hero.svelte';
 	import Cta from '$lib/Cta.svelte';
 	import { onMount } from 'svelte';
+	import Image from 'sveltekit-image';
 	onMount(() => {
 	
 	});
@@ -12,6 +13,7 @@
 </script>
 <svelte:head>
 	<title>Carglans i Karlstad AB</title>
+	<meta name="description" content="Få din bil att glänsa som ny med vår professionella bilvårdstjänst i Karlstad. Vi erbjuder detaljerad och heltäckande bilvård, inklusive 2-stegspolering. Boka en tid idag för en skinande ren och välskött bil." />
 	<script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"></script>
 
 	<script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
