@@ -4,7 +4,8 @@
 
 <svelte:head>
 	<title>Galleri - Carglans</title>
-	<meta name="description" content="Våra senaste jobb" />
+    <meta name="keywords" content="Bilvård, Professionell bilvård, Karlstad, Detaljerad bilvård, Heltäckande bilvård, Skinande ren bil, Välskött bil, Boka tid, Hero image, Bilrengöring, Bilpolering, Bilvaxning, Biltvätt.">
+		<meta name="description" content="Våra senaste jobb,Bilvård, Professionell bilvård, Karlstad, Detaljerad bilvård, Heltäckande bilvård, Skinande ren bil," />
 </svelte:head>
 <!-- Heading -->
 <div class="text-center">

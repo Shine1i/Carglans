@@ -16,7 +16,10 @@
 </script>
 <svelte:head>
 	<title>Carglans i Karlstad AB</title>
-	<meta name="description" content="Få din bil att glänsa som ny med vår professionella bilvårdstjänst i Karlstad. Vi erbjuder detaljerad och heltäckande bilvård, inklusive 2-stegspolering. Boka en tid idag för en skinande ren och välskött bil." />
+	<!-- canonical link -->
+	<link rel="canonical" href="https://carglans.se/" />
+	<meta name="description" content="Få din bil att glänsa som ny med vår professionella bilvårdstjänst i Karlstad. Vi erbjuder detaljerad och heltäckande bilvård, inklusive 3-stegspolering. " />
+	<meta name="keywords" content="Bilvård, Professionell bilvård, Karlstad, Detaljerad bilvård, Heltäckande bilvård, Skinande ren bil, Välskött bil, Boka tid, Hero image, Bilrengöring, Bilpolering, Bilvaxning, Biltvätt.">
 	<script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"></script>
 
 	<script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>

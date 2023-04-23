@@ -1,3 +1,9 @@
+
+<svelte:head>
+    <title>Carglans - Om oss</title>
+    <meta name="description" content="Vi är stolta över att erbjuda högkvalitativ bilvård och tar hand om din bil som om den vore vår egen.">
+    <meta name="keywords" content="Bilvård, Professionell bilvård, Karlstad, Detaljerad bilvård, Heltäckande bilvård, Skinande ren bil, Välskött bil, Boka tid, Hero image, Bilrengöring, Bilpolering, Bilvaxning, Biltvätt.">
+</svelte:head>
 <!-- Page Container -->
 <div id="page-container" class="flex flex-col mx-auto w-full min-h-screen ">
     <!-- Page Content -->

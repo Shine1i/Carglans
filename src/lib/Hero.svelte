@@ -16,7 +16,7 @@
 	<!-- Hero Content -->
 	<div class="relative container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-16">
 		<div class="text-center">
-			<a href="javascript:void(0)" class="inline-block mb-10 text-rose-600 hover:text-rose-400">
+			<a href="/" class="inline-block mb-10 text-rose-600 hover:text-rose-400">
 				<svg
 					stroke="currentColor"
 					fill="none"
