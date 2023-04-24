@@ -21,7 +21,7 @@
       <a href="/bilder" class="font-medium text-gray-300 hover:text-gray-400">
         Galleri
       </a>
-      <a href="/kontakt" class="font-medium text-gray-300 hover:text-gray-400">
+      <a href="/kontakta-oss" class="font-medium text-gray-300 hover:text-gray-400">
       Kontakta Oss
       </a>
     </nav>

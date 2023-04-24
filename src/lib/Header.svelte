@@ -15,7 +15,7 @@
         <a href="/bilder" class="text-sm font-semibold text-gray-100 hover:text-pink-600 dark:text-gray-100 dark:hover:text-pink-500">
           <span>Galleri</span>
         </a>
-        <a href="/kontakt" class="text-sm font-semibold text-gray-100 hover:text-pink-600 dark:text-gray-100 dark:hover:text-pink-500">
+        <a href="/kontakta-oss" class="text-sm font-semibold text-gray-100 hover:text-pink-600 dark:text-gray-100 dark:hover:text-pink-500">
           <span>Kontaka oss</span>
         </a>
       </nav>
