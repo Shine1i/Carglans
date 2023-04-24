@@ -1,3 +1,6 @@
+<script context='module'>
+export const prerender = tru
+</script>
 <!-- Contact Section: Split -->
 <div class="relative  flex items-center overflow-hidden">
   <div class="absolute top-0 right-0 bottom-0 w-full lg:w-1/2 "></div>
@@ -32,7 +35,7 @@ Våxnäsgatan 150, Karlstad<br>
       <!-- Contact Form -->
       <div class="flex items-center lg:px-14 xl:px-20">
         <form name="netlify-form-example" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="space-y-6 w-full" _lpchecked="1">
-					<input type="hidden" name="form-name" value="netlify-form-example" />
+					<input type="hidden" name="netlify-form-example" value="netlify-form-example" />
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div class="space-y-1">
               <label for="firstname" class="font-medium">First Name</label>
