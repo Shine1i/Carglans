@@ -48,14 +48,14 @@ on:change={({ detail }) => {
 						>
 							<Image  layout="constrained"
 							width={800}
-							height={600}  loading='eager' src="https://i.ibb.co/Y2DmV8T/hero.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
+							height={600}   src="https://i.ibb.co/Y2DmV8T/hero.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 						<div
 							class="group bg-gray-800 transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-red-300"
 						>
 							<Image  layout="constrained"
 							width={800}
-							height={600}  loading='eager' src="https://i.ibb.co/gmTLnXv/bmw4.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
+							height={600}   src="https://i.ibb.co/gmTLnXv/bmw4.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 					</div>
 					<div class="md:w-2/5 space-y-6">
@@ -64,14 +64,14 @@ on:change={({ detail }) => {
 						>
 							<Image  layout="constrained"
 							width={800}
-							height={600}   loading='eager' src="https:/i.ibb.co/9bSzTnW/bmw2.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
+							height={600}    src="https:/i.ibb.co/9bSzTnW/bmw2.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 						<div
 							class="group bg-gray-800  transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-purple-300"
 						>
 							<Image  layout="constrained"
 							width={800}
-							height={600}  loading='eager' src="https://i.ibb.co/phvSdMT/bmw3.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
+							height={600}   src="https://i.ibb.co/phvSdMT/bmw3.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 					</div>
 				</div>

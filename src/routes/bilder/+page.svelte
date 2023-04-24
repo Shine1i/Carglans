@@ -49,7 +49,7 @@
 							width={800}
 							height={600} 
 				
-					src="https://i.ibb.co/37xJDXT/gal2.webp"
+					src="https://i.ibb.co/v3xFfbM/gal7.webp"
 					alt="Product Image"
 					class="transform transition ease-out h-full group-hover:scale-110"
 				/>
