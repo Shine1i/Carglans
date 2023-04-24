@@ -140,7 +140,7 @@ on:change={({ detail }) => {
                 Markus
               </a>
               <p class="text-sm text-gray-500 font-medium">
-                Audi A3
+                Mercedes E53 AMG
               </p>
             </div>
           </footer>
@@ -168,7 +168,7 @@ on:change={({ detail }) => {
                 Erik
               </a>
               <p class="text-sm text-gray-500 font-medium">
-                Volkswagen Golf
+                Porsche Taycan GTS
               </p>
             </div>
           </footer>
@@ -196,7 +196,7 @@ on:change={({ detail }) => {
                 Anna
               </a>
               <p class="text-sm text-gray-500 font-medium">
-                Volvo V70
+                Audi SQ7
               </p>
             </div>
           </footer>
@@ -215,7 +215,7 @@ on:change={({ detail }) => {
             </div>
           </div>
           <p class="grow text-sm text-gray-300 font-medium leading-relaxed mb-5">
-            "Hej Albin! Vill bara skicka ett stort tack för att du gjorde min bil så otroligt ren och snygg. Du är verkligen grym på det här med bilvård! Tack igen, och jag kommer definitivt att rekommendera dig till mina vänner.
+            Hej Albin! Vill bara skicka ett stort tack för att du gjorde min bil så otroligt ren och snygg. Du är verkligen grym på det här med bilvård! Tack igen, och jag kommer definitivt att rekommendera dig till mina vänner.
           </p>
           <footer class="flex-none flex items-center space-x-4">
             

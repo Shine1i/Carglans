@@ -26,8 +26,9 @@ on:change={({ detail }) => {
 						Vi tar hand om din bil, du njuter av körningen
 					</h2>
 					<h3 class="text-lg md:text-xl md:leading-relaxed font-medium text-gray-500">
-						Vi ebjuder din bil tre behandlingar: 3-stegs polering för utsidan eller/och invändig
-						rekond för insidan och keramiskt lackskydd för att bevara skönheten.
+						Vi erbjuder olika tjänster inom Bilvård. Med vår poleringstjänst får du en perfekt finish och den bästa glansen. Vi erbjuder också utvändig rekond och invändig rekond för att se till att din bil ser ut som ny.
+
+Vår motortvätt kommer att rengöra din motor och hålla den i toppskick. För att skydda din bil från framtida skador rekommenderar vi också vårt keramiska lackskydd. Det gör det enklare att tvätta bilen och skyddar samtidigt bilens lack, förhöjer glansen på bilen och ger det ultimata skyddet mot repor och skador.
 					</h3>
 				</div>
 			</div>
