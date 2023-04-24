@@ -33,7 +33,7 @@ on:change={({ detail }) => {
   
       <!-- Actions -->
       <div class="grow md:p-5 md:text-center">
-        <a href="/kontakt-oss" class="inline-flex justify-center items-center space-x-2 border font-semibold focus:outline-none px-10 py-5 leading-6 rounded-full border-rose-700 bg-rose-700 text-white hover:text-white hover:bg-rose-800 hover:border-rose-800 focus:ring focus:ring-rose-500 focus:ring-opacity-50 active:bg-rose-700 active:border-rose-700">
+        <a href="/kontakta-oss" class="inline-flex justify-center items-center space-x-2 border font-semibold focus:outline-none px-10 py-5 leading-6 rounded-full border-rose-700 bg-rose-700 text-white hover:text-white hover:bg-rose-800 hover:border-rose-800 focus:ring focus:ring-rose-500 focus:ring-opacity-50 active:bg-rose-700 active:border-rose-700">
           <span>Kontakta oss</span>
           <svg class="opacity-50 hi-solid hi-arrow-right inline-block w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
         </a>
