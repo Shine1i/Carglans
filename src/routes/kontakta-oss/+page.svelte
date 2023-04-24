@@ -1,5 +1,5 @@
 <script context='module'>
-export const prerender = tru
+export const prerender = true
 </script>
 <!-- Contact Section: Split -->
 <div class="relative  flex items-center overflow-hidden">
