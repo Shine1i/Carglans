@@ -33,7 +33,7 @@
         <!-- Contact Form -->
         <div class="flex items-center lg:px-14 xl:px-20">
           <form name="contact" method="POST"  data-netlify="true" class="space-y-6 w-full" >
-            <input type="hidden" name="font-name" value="contact" />
+            <input type="hidden" name="form-name" value="contact" />
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div class="space-y-1">
                 <label for="firstname" class="font-medium">First Name
