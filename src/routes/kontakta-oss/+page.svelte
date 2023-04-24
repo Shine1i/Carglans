@@ -39,10 +39,7 @@
                 <label for="firstname" class="font-medium">First Name
                 <input class="block border placeholder-gray-490 px-5 bg-gray-900 py-3 leading-6 w-full rounded border-gray-200 focus:border-rose-500 focus:ring focus:ring-rose-500 focus:ring-opacity-50" type="text" name="name" id="name" required placeholder="Name" ></label>
               </div>
-              <div class="space-y-1">
-                <label for="lastname" class="font-medium">Last Name
-                <input class="block border placeholder-gray-400 px-5 py-3 bg-gray-900 leading-6 w-full rounded border-gray-200 focus:border-rose-500 focus:ring focus:ring-rose-500 focus:ring-opacity-50"  type="text" name="name" id="name" required placeholder="Name"></label>
-              </div>
+           
             </div>
             <div class="space-y-1">
               <label for="email" class="font-medium">Email
