@@ -3,6 +3,7 @@
   import { fade } from 'svelte/transition';
   import { inview } from 'svelte-inview';
   let isInView;
+	import { Image } from "@unpic/svelte";
 </script>
 <div
 class="wrapper"
@@ -45,24 +46,32 @@ on:change={({ detail }) => {
 						<div
 							class="group bg-gray-800 transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-orange-300"
 						>
-							<img  loading='eager' src="https://wsrv.nl/?url=i.ibb.co/Y2DmV8T/hero.webp&maxage=365d&w=500&h=500" class="rounded-2xl " alt="bmw bil" srcset="" />
+							<Image  layout="constrained"
+							width={800}
+							height={600}  loading='eager' src="https://i.ibb.co/Y2DmV8T/hero.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 						<div
 							class="group bg-gray-800 transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-red-300"
 						>
-							<img loading='eager' src="https://wsrv.nl/?url=i.ibb.co/gmTLnXv/bmw4.webp&maxage=365d&w=500&h=500" class="rounded-2xl " alt="bmw bil" srcset="" />
+							<Image  layout="constrained"
+							width={800}
+							height={600}  loading='eager' src="https://i.ibb.co/gmTLnXv/bmw4.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 					</div>
 					<div class="md:w-2/5 space-y-6">
 						<div
 							class="group bg-gray-800  transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-emerald-300"
 						>
-							<img  loading='eager' src="https://wsrv.nl/?url=i.ibb.co/9bSzTnW/bmw2.webp&maxage=365d&w=500&h=500" class="rounded-2xl " alt="bmw bil" srcset="" />
+							<Image  layout="constrained"
+							width={800}
+							height={600}   loading='eager' src="https:/i.ibb.co/9bSzTnW/bmw2.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 						<div
 							class="group bg-gray-800  transition ease-out duration-200 border-2 border-gray-700 rounded-2xl hover:border-purple-300"
 						>
-							<img loading='eager' src="https://wsrv.nl/?url=i.ibb.co/phvSdMT/bmw3.webp&maxage=365d&w=500&h=500" class="rounded-2xl " alt="bmw bil" srcset="" />
+							<Image  layout="constrained"
+							width={800}
+							height={600}  loading='eager' src="https://i.ibb.co/phvSdMT/bmw3.webp" class="rounded-2xl " alt="bmw bil" srcset="" />
 						</div>
 					</div>
 				</div>

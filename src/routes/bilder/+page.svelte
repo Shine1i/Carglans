@@ -1,5 +1,5 @@
 <script>
-	import Image from 'sveltekit-image';
+	import { Image } from "@unpic/svelte";
 </script>
 
 <svelte:head>
@@ -27,9 +27,10 @@
 			<a
 				class="sm:col-span-2 md:col-span-1 block group relative transition ease-out active:opacity-75 overflow-hidden"
 			>
-				<img
-				width={400}
-					height={600}
+				<Image  layout="constrained"
+							width={800}
+							height={600} 
+			
 					src="https://i.ibb.co/G3wM6zQ/gal1.webp"
 					alt="Product Image"
 					class="transform transition ease-out h-full group-hover:scale-110"
@@ -44,9 +45,10 @@
 				href="javascript:void(0)"
 				class="block group relative transition ease-out active:opacity-75 overflow-hidden"
 			>
-				<img
-					width={400}
-					height={600}
+				<Image  layout="constrained"
+							width={800}
+							height={600} 
+				
 					src="https://i.ibb.co/37xJDXT/gal2.webp"
 					alt="Product Image"
 					class="transform transition ease-out h-full group-hover:scale-110"
@@ -61,7 +63,9 @@
 				href="javascript:void(0)"
 				class="block group relative transition ease-out active:opacity-75 overflow-hidden"
 			>
-				<img
+				<Image  layout="constrained"
+							width={800}
+							height={600} 
 					
 					src="https://i.ibb.co/kKxZfZY/gal8.webp"
 					alt="Product Image"
@@ -77,9 +81,10 @@
 				href="javascript:void(0)"
 				class="sm:col-span-2 md:col-span-1 block group relative transition ease-out active:opacity-75 overflow-hidden"
 			>
-				<img
-					width={400}
-					height={600}
+				<Image  layout="constrained"
+							width={800}
+							height={600} 
+				
 					src="https://i.ibb.co/hLGsDfM/gal4.webp"
 					alt="Product Image"
 					class="transform transition ease-out group-hover:scale-110"
@@ -94,9 +99,10 @@
 				href="javascript:void(0)"
 				class="block group relative transition ease-out active:opacity-75 overflow-hidden"
 			>
-				<img
-					width={400}
-					height={600}
+				<Image  layout="constrained"
+							width={800}
+							height={600} 
+				
 					src="https://i.ibb.co/qRrD29L/gal9.webp"
 					alt="Product Image"
 					class="transform h-full w-full object-fill transition ease-out group-hover:scale-110"
@@ -111,9 +117,10 @@
 				href="javascript:void(0)"
 				class="block group relative transition ease-out h-full active:opacity-75 overflow-hidden"
 			>
-				<img
-					width={400}
-					height={600}
+				<Image  layout="constrained"
+							width={800}
+							height={600} 
+				
 					src="https://i.ibb.co/gmTLnXv/bmw4.webp"
 					alt="Product Image"
 					class="transform transition ease-out object-fill group-hover:scale-110"

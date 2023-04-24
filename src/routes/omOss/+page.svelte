@@ -1,4 +1,7 @@
 
+<script>
+  import { Image } from "@unpic/svelte";
+</script>
 <svelte:head>
     <title>Carglans - Om oss</title>
     <meta name="description" content="Vi är stolta över att erbjuda högkvalitativ bilvård och tar hand om din bil som om den vore vår egen.">
@@ -33,8 +36,12 @@
           <!-- Images -->
           <div class="flex space-x-2">  
             <div class="flex flex-col md:flex-row gap-5 ">
-              <img src="https://wsrv.nl/?url=i.ibb.co/kxX7352/about.jpg&maxage=365d" alt="Featured Image" class="rounded-lg md:w-2/3 object-cover">
-              <img src="https://wsrv.nl/?url=i.ibb.co/Y2DmV8T/hero.webp&maxage=365d" alt="Featured Image" class="rounded-lg md:w-1/3 object-cover">
+              <Image  layout="constrained"
+							width={800}
+							height={600} src="https://i.ibb.co/kxX7352/about.jpg" alt="Featured Image" class="rounded-lg md:w-2/3 object-cover"/>
+              <Image  layout="constrained"
+							width={800}
+							height={600} src="https://i.ibb.co/Y2DmV8T/hero.webp" alt="Featured Image" class="rounded-lg md:w-1/3 object-cover"/>
             </div>
             <div>
             </div>

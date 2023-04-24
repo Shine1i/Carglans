@@ -1,18 +1,12 @@
 <!-- Page Container -->
 <script>
-	 import anime from 'animejs';
 	import Cards from '$lib/Cards.svelte';
 	import Hero from '$lib/Hero.svelte';
 	import Cta from '$lib/Cta.svelte';
-	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
   import { inview } from 'svelte-inview';
 
   let isInView;
-	onMount(() => {
-	
-	});
-
 </script>
 <svelte:head>
 	<title>Carglans i Karlstad AB</title>
@@ -20,7 +14,6 @@
 	<link rel="canonical" href="https://carglans.se/" />
 	<meta name="description" content="Få din bil att glänsa som ny med vår professionella bilvårdstjänst i Karlstad. Vi erbjuder detaljerad och heltäckande bilvård, inklusive 3-stegspolering. " />
 	<meta name="keywords" content="Bilvård, Professionell bilvård, Karlstad, Detaljerad bilvård, Heltäckande bilvård, Skinande ren bil, Välskött bil, Boka tid, Hero image, Bilrengöring, Bilpolering, Bilvaxning, Biltvätt.">
-	<script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"></script>
 
 	<script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
