@@ -5,7 +5,7 @@ This is a website for Carglans in Karlstad AB, a company based in Karlstad, Swed
 ## Lighthouse Score
 
 <p align="center">
-  <img src="https://i.imgur.com/cUs71JO.png" alt="Lighthouse Score">
+  <img src="https://i.imgur.com/WyehSiD.png" alt="Lighthouse Score">
 </p>
 <p align="center">
 <img src="https://a.storyblok.com/f/88751/1702x2049/619c584101/svelte_logo.png" alt="Homepage Design" width="50">
